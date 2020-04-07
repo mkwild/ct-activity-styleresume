@@ -1,0 +1,64 @@
+#top {
+    font-family: florence, cursive;
+    background-color: lightcyan;
+    color: darkslategrey;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+}
+
+.mainDetails {
+    text-align: center;
+    width: 100%;
+    height: 350px;
+}
+
+#name h1 {
+    font-size: 48px;
+    color: gray;
+    margin: 12px 0;
+}
+
+#name h2 {
+    color: gray;
+    margin: 12px 0 0 0;
+}
+
+#contactDetails li{
+    list-style-type: none;
+    display: inline;
+}
+
+#contactDetails li:nth-child(2):before {
+    content: " - ";
+    color: lightgrey;
+}
+
+#contactDetails li:nth-child(2):after {
+    content: " - ";
+    color: lightgrey;
+}
+
+#mainArea {
+    border: 1px solid black;
+}
+
+#mainArea h1 {
+    font-size: 36px;
+    text-align: center;
+    background-color: lightskyblue;
+    margin: 0 0 12px 0;
+}
+
+#mainArea h2 {
+    font-size: 24px;
+    margin: 5px;
+}
+
+#mainArea p {
+    margin: 5px;
+}
+
+#mainArea article {
+    margin-bottom: 20px;
+}

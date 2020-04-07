@@ -1,3 +1,5 @@
+/* alignment */
+
 .clear {
 	clear: both;
 }
@@ -24,4 +26,88 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+/* end alignment */
+
+body {
+	margin: 8.75%;
+}
+
+* {
+	background-color: #f3f3f3;
+	font-family: 'rokkitt', 'helvetica', 'arial', sans-serif;
+}
+
+.mainDetails {
+	border-bottom: 2px solid #cf8a05;
+}
+
+#headshot img {
+	border-radius: 50%;
+	margin: 0 30px;
+	position: relative;
+}
+
+#contactDetails li {
+	list-style-type: none;
+}
+
+#contactDetails Li a {
+	color: #181818;
+	text-decoration: none;
+}
+
+#name h1 {
+	margin-left: 30px;
+	margin-bottom: 0;
+	position: relative;
+}
+
+#name h2 {
+	margin-left: 30px;
+	margin-top: 0;
+	position: relative;
+}
+
+#mainArea h1 {
+	color: #cf8a05;
+	font-style: italic;
+	font-size: 24px;
+	margin-left: 12.5%;
+}
+
+#mainArea section:first-child p {
+	margin-top: 24px;
+}
+
+article h2 {
+	margin-bottom: 0;
+}
+
+article p{
+	font-family: 'lato', 'helvetica', 'arial', sans-serif;
+	margin-top: 5px;
+}
+
+.subDetails {
+	color: #444444;
+	font-style: italic;
+	margin: 0;
+}
+
+section {
+	border-top: 1px solid #dedede;
+}
+
+ul.keySkills {
+	padding: 0;
+	display: flex;
+	flex-flow: wrap column;
+	max-height: 57px;
+}
+
+ul.keySkills li {
+	font-family: 'lato', 'helvetica', 'arial', sans-serif;
+	list-style-type: none;
 }

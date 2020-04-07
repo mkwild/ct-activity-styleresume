@@ -9,6 +9,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 html, body {
 	font-size: 16px;
+	font-family: 'Rokkitt', 'Helvetica', 'Arial', sans-serif;
+}
+
+* {
+	background-color: #f3f3f3;
 }
 
 .clear {
@@ -17,6 +22,7 @@ html, body {
 
 p {
 	font-size: 1em;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
 	line-height: 1.4em;
 	margin-bottom: 20px;
 }
@@ -29,6 +35,7 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
+	border-bottom: 2px solid #cf8a05;
 }
 
 #name h1 {
@@ -78,6 +85,7 @@ p {
 
 #contactDetails ul li a, a[href^=tel] {
 	text-decoration: none;
+	color: #181818;
 }
 
 #contactDetails ul li a:hover {
@@ -85,6 +93,7 @@ p {
 
 section {
 	padding: 20px 0 0;
+	border-top: 1px solid #dedede;
 }
 
 section:first-child {
@@ -93,6 +102,10 @@ section:first-child {
 
 section:last-child {
 	padding: 20px 0 10px;
+}
+
+section h1 {
+	color: #cf8a05;
 }
 
 .sectionTitle {
@@ -118,6 +131,7 @@ section:last-child {
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;
+	color: #444444;
 	margin-bottom: 3px;
 }
 
